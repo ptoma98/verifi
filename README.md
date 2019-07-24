@@ -28,7 +28,7 @@ Next, clone the repository from GitHub:
 `git clone https://github.com/ptoma98/verifi.git && cd verifi`
 
 Finally, install the dependencies:
-`pip3 install requirements.txt`
+`pip3 install -r requirements.txt`
 
 ### Running the script:
 To run the script you need an Open Weather API key. This should have been provided to
