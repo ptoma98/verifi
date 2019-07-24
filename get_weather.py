@@ -30,7 +30,6 @@ def main():
     key = args.key
 
     weather = get_current_weather(city, key)
-
     report_weather(city, weather)
 
 
