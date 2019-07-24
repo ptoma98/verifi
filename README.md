@@ -31,15 +31,19 @@ Finally, install the dependencies:
 `pip3 install requirements.txt`
 
 ### Running the script:
+To run the script you need an Open Weather API key. This should have been provided to
+you by email. If not you can also create one by following these steps:
+
+https://openweathermap.org/appid
 
 The script by default outputs the weather in L.A:
 ```
-$ python3 get_weather.py 
+$ python3 get_weather.py --key <YOUR_OPEN_WEATHER_API_KEY>
 Current Los Angeles Weather: clear sky, current temperature is 89.19 degrees fahrenheit, low of 75, with a high of 102. 
 ```
 
 To get the weather in other cities call the script with the --city argument:
 ```
-$ python3 get_weather.py --city "Buenos Aires"
+$ python3 get_weather.py --city "Buenos Aires" --key <YOUR_OPEN_WEATHER_API_KEY>
 Current Buenos Aires Weather: clear sky, current temperature is 52.29 degrees fahrenheit, low of 51.01, with a high of 54.
 ```
